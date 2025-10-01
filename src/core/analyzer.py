@@ -95,6 +95,14 @@ class BrandAnalyzer:
         # Create search query combining brand and question
         search_query = f"{request.brand} {request.question}"
         
+        # Tavily has a 400 character limit - truncate if needed
+        MAX_QUERY_LENGTH = 400
+        if len(search_query) > MAX_QUERY_LENGTH:
+            # Prioritize brand name, truncate question
+            remaining_length = MAX_QUERY_LENGTH - len(request.brand) - 1
+            truncated_question = request.question[:remaining_length]
+            search_query = f"{request.brand} {truncated_question}"
+        
         # Perform search
         search_results = self.web_search.search_web(search_query, num_results=5)
         
