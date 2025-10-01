@@ -1,0 +1,78 @@
+{
+  "human_response_markdown": "Tesla, Inc. is an American multinational automotive and clean energy company best known for designing, manufacturing, and selling battery electric vehicles and energy storage products. The company was initially formed to develop an electric sports car, releasing its first model, the completely electric Roadster, in 2008. Besides electric vehicles, Tesla also produces solar panels, batteries for cars, and home power storage systems.\n\nHeadquartered in Austin, Texas, Tesla has made significant contributions to the transition towards sustainable energy and zero-emissions vehicles in the automotive industry. For several years, Tesla profited from the sale of regulatory carbon credits, generating a revenue of $2.76 billion in 2024 alone. However, this revenue stream has been increasingly constrained due to changing emissions regulations and the industry-wide shift towards zero-emissions vehicles.\n\nThe company is named after Nikola Tesla (1856–1943), a Serbian-American engineer, futurist, and inventor known for his significant contributions to electrical engineering.\n\nSources:\n- [Tesla, Inc. | History, Cars, Elon Musk, & Facts](https://www.britannica.com/money/Tesla-Motors)\n- [Tesla, Inc.](https://en.wikipedia.org/wiki/Tesla,_Inc.)\n- [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)\n- [Tesla](https://www.tesla.com/)",
+  "citations": [
+    {
+      "text": "Sources:\n- [Tesla, Inc. | History, Cars, Elon Musk, & Facts](https://www.britannica.com/money/Tesla-Motors)\n- [Tesla, Inc.](https://en.wikipedia.org/wiki/Tesla,_Inc.)\n- [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)\n- [Tesla](https://www.tesla.com/)",
+      "url": "https://www.britannica.com/money/Tesla-Motors",
+      "entity": "Tesla, Inc."
+    },
+    {
+      "text": "Sources:\n- [Tesla, Inc. | History, Cars, Elon Musk, & Facts](https://www.britannica.com/money/Tesla-Motors)\n- [Tesla, Inc.](https://en.wikipedia.org/wiki/Tesla,_Inc.)\n- [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)\n- [Tesla](https://www.tesla.com/)",
+      "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+      "entity": "Tesla, Inc."
+    },
+    {
+      "text": "Sources:\n- [Tesla, Inc. | History, Cars, Elon Musk, & Facts](https://www.britannica.com/money/Tesla-Motors)\n- [Tesla, Inc.](https://en.wikipedia.org/wiki/Tesla,_Inc.)\n- [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)\n- [Tesla](https://www.tesla.com/)",
+      "url": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+      "entity": "Nikola Tesla"
+    },
+    {
+      "text": "Sources:\n- [Tesla, Inc. | History, Cars, Elon Musk, & Facts](https://www.britannica.com/money/Tesla-Motors)\n- [Tesla, Inc.](https://en.wikipedia.org/wiki/Tesla,_Inc.)\n- [Nikola Tesla](https://en.wikipedia.org/wiki/Nikola_Tesla)\n- [Tesla](https://www.tesla.com/)",
+      "url": "https://www.tesla.com/",
+      "entity": "Tesla"
+    }
+  ],
+  "mentions": [
+    {
+      "text": "Tesla, Inc. is an American multinational automotive and clean energy company best known for designing, manufacturing, and selling battery electric vehicles and energy storage products.",
+      "position": 0,
+      "exact_match": "Tesla",
+      "variation": "Tesla"
+    },
+    {
+      "text": "The company was initially formed to develop an electric sports car, releasing its first model, the completely electric Roadster, in 2008. Besides electric vehicles, Tesla also produces solar panels, batteries for cars, and home power storage systems.",
+      "position": 273,
+      "exact_match": "Tesla",
+      "variation": "Tesla"
+    },
+    {
+      "text": "Headquartered in Austin, Texas, Tesla has made significant contributions to the transition towards sustainable energy and zero-emissions vehicles in the automotive industry.",
+      "position": 457,
+      "exact_match": "Tesla",
+      "variation": "Tesla"
+    },
+    {
+      "text": "For several years, Tesla profited from the sale of regulatory carbon credits, generating a revenue of $2.76 billion in 2024 alone.",
+      "position": 631,
+      "exact_match": "Tesla",
+      "variation": "Tesla"
+    },
+    {
+      "text": "The company is named after Nikola Tesla (1856–1943), a Serbian-American engineer, futurist, and inventor known for his significant contributions to electrical engineering.",
+      "position": 858,
+      "exact_match": "Tesla",
+      "variation": "Tesla"
+    }
+  ],
+  "owned_sources": [
+    "https://www.tesla.com/en_my",
+    "https://www.tesla.com/"
+  ],
+  "sources": [
+    "https://www.globaldata.com/company-profile/tesla-inc/",
+    "https://en.wikipedia.org/wiki/Nikola_Tesla",
+    "https://www.britannica.com/money/Tesla-Motors",
+    "https://en.wikipedia.org/wiki/Tesla,_Inc."
+  ],
+  "metadata": {
+    "token_count": 282,
+    "searches_performed": 1,
+    "max_searches": 2,
+    "sources_included": 9,
+    "max_sources": 10,
+    "citations_found": 4,
+    "mentions_found": 5,
+    "processing_time_seconds": 58.01616024971008,
+    "model_used": "gpt-4"
+  }
+}
