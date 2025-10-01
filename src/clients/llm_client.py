@@ -9,7 +9,7 @@ import logging
 from typing import List, Dict, Any, Optional
 from openai import OpenAI
 import tiktoken
-from models import SearchResult, Citation, Mention, AnalysisResult, Metadata
+from src.core.models import SearchResult, Citation, Mention, AnalysisResult, Metadata
 
 # Configure logger
 logger = logging.getLogger(__name__)

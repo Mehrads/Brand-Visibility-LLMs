@@ -4,7 +4,13 @@ Demo script for Brand Visibility Analyzer
 Shows sample output without requiring API calls
 """
 import json
-from models import AnalysisResult, Citation, Mention, Metadata
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.core.models import AnalysisResult, Citation, Mention, Metadata
 
 
 def demo_analysis():

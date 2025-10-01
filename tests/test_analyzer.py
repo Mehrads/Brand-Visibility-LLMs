@@ -4,12 +4,18 @@ Comprehensive unit tests for the Brand Visibility Analyzer
 import pytest
 import json
 import os
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from unittest.mock import Mock, patch, MagicMock
 from dotenv import load_dotenv
-from models import AnalysisRequest, AnalysisResult, Citation, Mention, Metadata
-from analyzer import BrandAnalyzer
-from llm_client import LLMClient
-from web_search import WebSearchEngine
+from src.core.models import AnalysisRequest, AnalysisResult, Citation, Mention, Metadata
+from src.core.analyzer import BrandAnalyzer
+from src.clients.llm_client import LLMClient
+from src.utils.web_search import WebSearchEngine
 
 # Load environment variables for real API testing
 load_dotenv()

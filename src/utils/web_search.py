@@ -5,7 +5,7 @@ import requests
 import os
 from typing import List, Dict, Any, Optional
 from bs4 import BeautifulSoup
-from models import SearchResult
+from src.core.models import SearchResult
 from urllib.parse import urlparse
 from tavily import TavilyClient
 

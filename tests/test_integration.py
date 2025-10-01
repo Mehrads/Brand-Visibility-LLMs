@@ -4,9 +4,15 @@ Integration tests for the complete Brand Visibility Analyzer system
 import pytest
 import json
 import os
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from dotenv import load_dotenv
-from models import AnalysisRequest, AnalysisResult
-from analyzer import BrandAnalyzer
+from src.core.models import AnalysisRequest, AnalysisResult
+from src.core.analyzer import BrandAnalyzer
 
 # Load environment variables for real API calls
 load_dotenv()

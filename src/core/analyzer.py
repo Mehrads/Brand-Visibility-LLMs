@@ -3,10 +3,10 @@ Main analyzer for brand visibility in LLM responses
 """
 import time
 from typing import List, Set, Union
-from models import AnalysisRequest, AnalysisResult, Metadata, SearchResult
-from llm_client import LLMClient
-from llm_client_gemma import OpenSourceLLMClient
-from web_search import WebSearchEngine
+from src.core.models import AnalysisRequest, AnalysisResult, Metadata, SearchResult
+from src.clients.llm_client import LLMClient
+from src.clients.llm_client_gemma import OpenSourceLLMClient
+from src.utils.web_search import WebSearchEngine
 
 
 class BrandAnalyzer:

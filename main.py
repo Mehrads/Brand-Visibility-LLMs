@@ -14,10 +14,10 @@ import argparse
 from typing import Optional
 
 from dotenv import load_dotenv
-from models import AnalysisRequest
-from analyzer import BrandAnalyzer
-from llm_client import LLMClient
-from llm_client_gemma import OpenSourceLLMClient
+from src.core.models import AnalysisRequest
+from src.core.analyzer import BrandAnalyzer
+from src.clients.llm_client import LLMClient
+from src.clients.llm_client_gemma import OpenSourceLLMClient
 
 
 def parse_arguments():
