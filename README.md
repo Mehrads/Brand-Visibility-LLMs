@@ -48,18 +48,24 @@ Brand-Visibility-LLMs/
 
 ## Installation
 
-1. **Set up virtual environment**:
+1. **Clone the repository**:
+```bash
+git clone https://github.com/Mehrads/Brand-Visibility-LLMs.git
+cd Brand-Visibility-LLMs
+```
+
+2. **Set up virtual environment**:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-2. **Install dependencies**:
+3. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Set up environment variables**:
+4. **Set up environment variables**:
 ```bash
 cp env.example .env
 # Edit .env with your API keys
