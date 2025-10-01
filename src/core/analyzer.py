@@ -146,9 +146,9 @@ class BrandAnalyzer:
             token_count=self.llm_client.count_tokens(response_text),
             searches_performed=self.web_search.search_count,
             max_searches=self.web_search.max_searches,
-            sources_included=len(search_results) + len(citations),
+            sources_included=len(search_results),  # Only web search sources (controlled by budget)
             max_sources=self.web_search.max_sources,
-            citations_found=len(citations),
+            citations_found=len(citations),  # LLM-generated citations (separate)
             mentions_found=len(mentions),
             processing_time_seconds=processing_time,
             model_used=self.llm_client.model
